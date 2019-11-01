@@ -1,0 +1,302 @@
+body{
+    
+    padding: 0 0px 0 0px;
+    margin:0;
+    
+}
+section, nav, footer{
+    padding-left:160px;
+}
+footer{
+    
+    background-color: #131313;
+}
+h1{
+    
+    color:white;
+}
+
+a{
+    color:#888888;
+}
+a:active{
+    color:greenyellow;
+}
+a:hover{
+    color:green;
+}
+.submit-button input{
+    border-radius: 30px;   
+}
+.submit-button input:hover{
+    background-color:aqua;
+}
+nav{
+    padding-top:45px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222222;
+    padding-right: 160px;
+    
+}
+nav div{
+    align-self: center;
+}
+nav a{
+    color:#d4d4d4;
+}
+button{
+	display:flex;
+    background-color: #ffcb06;
+    width:240px;
+    border-radius: 100px;
+    height:60px;
+}
+button img{
+	margin-left: auto;
+	
+}
+.start{
+    display:flex;
+    justify-content: space-around;
+    background-color: #222222;
+    padding-bottom: 120px;
+    
+}
+.start p{
+    color:#d4d4d4;
+    font-family: Veranda;
+    font-size: 14px;
+}
+.start div{
+ width:440px;
+    
+}
+.start div h1{
+    width:245px;
+    font-size: 45px;
+}
+.start div p{
+    font-size: 14px;
+    width:245px;
+    
+    
+}
+.start div button{
+    margin-top: 65px;
+}
+nav div{
+    display:flex;
+}
+nav .text  div  img{
+    margin-right:60px;
+}
+nav .text div a{
+    margin-right: 25px;
+}
+nav .immage {
+    justify-content: space-between;
+    width:60px;
+}
+.advantages{
+    display: flex;
+    justify-content: space-around;
+    background-color: #131313;
+    color:#d4d4d4;
+    padding:80px 0 80px 0;
+}
+.advantages div{
+    width:160px;
+}
+
+}
+.instructions{
+    background-color: #ffffff;
+    padding:80px 0 80px 0;
+}
+.instructions .first {
+    display:flex;
+    justify-content: space-around;
+    flex-direction:row;
+    
+}
+.instructions .first div{
+    width:440px;
+}
+.instructions .first p{
+	font-size:14px;
+}
+.instructions {
+    color:#222222;
+    font-size: 21px;
+    padding:80px 0 80px 0;
+}
+.instructions .second {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.instructions ul{
+	font-size: 15px;
+}
+.instructions .second div ul {
+    width:420px;
+    padding-left: 20px;
+    list-style: none;
+}
+.instructions .second div li::before{
+    display:block;
+    position: relative;
+    content:" ";
+    width:8px;
+    height: 8px;
+    border-radius: 100%;
+    right:24px;
+    top:10px;
+    background-color: #ffcb06;
+}
+.instructions .second div{
+    width:480px;
+}
+.form{
+    display:flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding:80px 0 80px 0;
+}
+.form form{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.form .input div{
+    width:440px;
+    margin-bottom: 10px;
+}
+.form form input{
+   width:420px; 
+    margin-bottom: 10px;
+    padding:19px 0 19px 19px;
+}
+.form .input .box input{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding:0;
+    width:25px;
+}
+.submit-button input{
+    width:220px;
+    padding: 0;
+}
+.form .text{
+    width:330px;
+}
+.wh{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 440px;
+}
+.wh div input{
+    width:190px;
+    
+}
+.table{
+    color:#ffffff;
+    padding:80px 0 80px 0;
+}
+.intro .b{
+    width:440px;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.intro .a {
+    font-size: 24px;
+    width:140px;
+    margin-right:
+}
+.table{
+    display:flex;
+    flex-direction: column;
+    background-color: #222222;
+    margin: auto;
+}
+.b a{
+	color: #feca30;
+}
+.a h6{
+	color: #feca30;
+}
+.table_table{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+.table_table h6{
+    border-bottom: 2px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #111111;
+    margin-bottom: 0;
+    
+}
+.table_table div{
+    width:260px;
+}
+.table_table ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    margin-top: 0;
+    
+    
+}
+.table_table li{
+    border-bottom: 3px solid gray;
+    padding: 23px 23px 23px 0;
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    padding:60px 0 70px 0;
+	margin: auto;
+}
+.Bobkov-loh{
+	position:relative;
+	top:20px;
+}
+footer h6{
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+}
+footer div{
+    width:180px;
+}
+footer ul{
+    margin-top:60px;
+    list-style: none;
+    color:#888888;
+    padding-left: 0;
+    
+}
+
+footer span{
+    color: #d4d4d4;
+    font-size:14px;
+    
+}
+footer p{
+    margin-top:110px;
+    color: #555555;
+}    
